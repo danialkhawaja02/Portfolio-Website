@@ -1,0 +1,51 @@
+.bloc-tabs {
+    display: flex;
+  }
+
+.tabs {
+  
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: #3aafc9;
+  }
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .content p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .active-content {
+    display: block;
+  }

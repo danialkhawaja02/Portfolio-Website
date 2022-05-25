@@ -1,0 +1,15 @@
+.footer-sect {
+    background-color: #1c232e;
+    text-align: center;
+}
+
+.social-icons {
+    padding: 5px 10px 10px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.social-icons:hover {
+    color: #3aafc9;
+    cursor: pointer;
+}

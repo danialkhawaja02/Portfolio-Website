@@ -1,0 +1,18 @@
+
+.hero-sect {
+    height: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.type-text {
+    color: #3aafc9;
+    font-weight: bold;
+    }

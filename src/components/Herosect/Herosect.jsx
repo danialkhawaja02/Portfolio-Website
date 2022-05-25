@@ -27,11 +27,9 @@ function Herosect(){
                             </h3>
                         </div>
                     </div>
-
                     <div className="col-lg-6 col-md-12 flex-cont ">
                         <img src={heroimg} alt="hero-img" height="90%" />
                     </div>
-
                 </div>
             </div>
         </section>

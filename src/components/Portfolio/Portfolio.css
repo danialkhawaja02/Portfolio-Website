@@ -5,14 +5,13 @@
     align-items: center;
 }
 
-.portfolio-title
-{
+.portfolio-title {
     font-size: 10vw;
     color: #3aafc9;
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .portfolio-text {
@@ -21,8 +20,7 @@
     margin-bottom: 50px;
 }
 
-.portfolio-card
-{
+.portfolio-card {
     position:relative;
     z-index: 90;
 }
@@ -71,4 +69,4 @@
     .portfolio-card {
         margin: 15px 0;
     }
-  }
+}

@@ -20,7 +20,6 @@ function Contact(){
                             </h2>
                             <p className="contact-text">Have a project? I would love to help you. Share your ideas or requirements becuase together we can build something great.</p>
                         </div>
-
                     </div>
                     <div className="col-lg-6 col-md-12 flex-cont">
                         <div className="contact-form">

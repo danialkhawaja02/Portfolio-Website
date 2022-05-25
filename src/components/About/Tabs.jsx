@@ -10,7 +10,7 @@ function Tabs() {
 
   return (
     <div className="container">
-      <div className="bloc-tabs">
+      <div className="block-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
